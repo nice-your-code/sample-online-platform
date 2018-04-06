@@ -1,9 +1,12 @@
 package ru.mephi.onlineplatform;
 
+import org.junit.Test;
+
 /**
  * @author Stanislav_Semichevskiy
  */
 public class ApplicationTest {
-
-    //TODO: tests should be written here.
+    @Test
+    public void shouldAddElement(){
+    }
 }

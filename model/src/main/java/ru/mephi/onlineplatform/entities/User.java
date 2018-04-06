@@ -3,6 +3,7 @@ package ru.mephi.onlineplatform.entities;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 
 public abstract class User {
 
@@ -23,6 +24,10 @@ public abstract class User {
         NEW,
         EMAIL_VERIFICATION,
         BLOCKED
+    }
+
+    public User() {
+
     }
 
     public Long getId() {
